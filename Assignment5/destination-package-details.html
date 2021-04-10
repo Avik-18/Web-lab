@@ -1,0 +1,176 @@
+<html>
+	<head>
+		<title>HTML and CSS</title>
+	</head>
+
+	<body style="background-color: #33E8FF;">
+
+	<div style="width: 800px; background-color: white; margin-top: 30px; margin-left: 400px; margin-right: 400px; padding-top: 10px;">
+	
+		<h1 style="background-color: red; color: white;  margin-left: 10px; margin-right: 10px; padding-left: 20px; line-height: 80px;">
+			Madcat
+			
+			<img src="cat-logo.png" style="float: right; width: 100px; height: 70px; padding-top: 5px; padding-right: 20px;">
+		</h1>
+
+		<img src="florence.jpg" style="width: 150px; height: 100px; padding-top: 5px; padding-left: 20px;">
+
+		<h1 style="background-color: red; color: white;margin-top: 20px; margin-left: 10px; margin-right: 10px; padding-left: 20px;">
+			Italy-Florence
+			
+		</h1>
+
+		<table style="border-collapse: collapse; margin-left: 20px;">
+
+			<tr>
+				<th style="border: 2px solid black;">Name</th>
+				<th style="border: 2px solid black;">Days</th>
+				<th style="border: 2px solid black;">Price</th>
+			</tr>
+
+			<tr>
+				<td style="border: 2px solid black;">Italy-Florence</td>
+				<td style="border: 2px solid black;"></td>
+				<td style="border: 2px solid black;">4050</td>
+			</tr>
+		</table>
+
+		
+
+		<p style="font-weight: bold; margin-top: 20px; font-size: 20px; padding-left: 20px;">Average Price by the Agencies: 4050.0000.</p>
+
+		<br>
+
+
+		<h1 style="background-color: red; color: white;margin-top: 10px; margin-left: 10px; margin-right: 10px; padding-left: 20px;">
+			Reviews
+			
+		</h1>
+
+		<table style="border-collapse: collapse; margin-left: 20px;">
+
+			<tr>
+				<th style="border: 2px solid black;">User</th>
+				<th style="border: 2px solid black;">Message</th>
+				<th style="border: 2px solid black;">Rating</th>
+			</tr>
+
+			<tr>
+				<td id="user1" style="border: 2px solid black;"></td>
+				<td id="message1" style="border: 2px solid black;"></td>
+				<td id="rating1" style="border: 2px solid black;"></td>
+			</tr>
+
+			<tr>
+				<th style="border: 2px solid black;">User</th>
+				<th style="border: 2px solid black;">Message</th>
+				<th style="border: 2px solid black;">Rating</th>
+			</tr>
+
+			<tr>
+				<td id="user2" style="border: 2px solid black;"></td>
+				<td id="message2" style="border: 2px solid black;"></td>
+				<td id="rating2" style="border: 2px solid black;"></td>
+			</tr>
+
+			<tr>
+				<th style="border: 2px solid black;">User</th>
+				<th style="border: 2px solid black;">Message</th>
+				<th style="border: 2px solid black;">Rating</th>
+			</tr>
+
+			<tr>
+				<td id="user3" style="border: 2px solid black;"></td>
+				<td id="message3" style="border: 2px solid black;"></td>
+				<td id="rating3" style="border: 2px solid black;"></td>
+			</tr>
+
+			<tr>
+				<th style="border: 2px solid black;">User</th>
+				<th style="border: 2px solid black;">Message</th>
+				<th style="border: 2px solid black;">Rating</th>
+			</tr>
+
+			<tr>
+				<td id="user4" style="border: 2px solid black;"></td>
+				<td id="message4" style="border: 2px solid black;"></td>
+				<td id="rating4" style="border: 2px solid black;"></td>
+			</tr>
+			
+			<tr>
+				<th style="border: 2px solid black;">User</th>
+				<th style="border: 2px solid black;">Message</th>
+				<th style="border: 2px solid black;">Rating</th>
+			</tr>
+
+			<tr>
+				<td id="user5" style="border: 2px solid black;"></td>
+				<td id="message5" style="border: 2px solid black;"></td>
+				<td id="rating5" style="border: 2px solid black;"></td>
+			</tr>
+
+			<tr>
+				<th style="border: 2px solid black;">User</th>
+				<th style="border: 2px solid black;">Message</th>
+				<th style="border: 2px solid black;">Rating</th>
+			</tr>
+
+			<tr>
+				<td id="user6" style="border: 2px solid black;"></td>
+				<td id="message6" style="border: 2px solid black;"></td>
+				<td id="rating6" style="border: 2px solid black;"></td>
+			</tr>
+
+			<tr>
+				<th style="border: 2px solid black;">User</th>
+				<th style="border: 2px solid black;">Message</th>
+				<th style="border: 2px solid black;">Rating</th>
+			</tr>
+
+			<tr>
+				<td id="user7" style="border: 2px solid black;"></td>
+				<td id="message7" style="border: 2px solid black;"></td>
+				<td id="rating7" style="border: 2px solid black;"></td>
+			</tr>
+
+			<tr>
+				<th style="border: 2px solid black;">User</th>
+				<th style="border: 2px solid black;">Message</th>
+				<th style="border: 2px solid black;">Rating</th>
+			</tr>
+
+			<tr>
+				<td id="user8" style="border: 2px solid black;"></td>
+				<td id="message8" style="border: 2px solid black;"></td>
+				<td id="rating8" style="border: 2px solid black;"></td>
+			</tr>
+
+			
+
+			
+		</table>
+
+		<script>
+			var place_name=["Sacha","Amazing and joyful","4"];
+
+			for(var i=0;i<8;i++)
+			{
+				
+				document.getElementById("user"+(i+1)).innerHTML = place_name[0];
+				document.getElementById("message"+(i+1)).innerHTML = place_name[1];
+				document.getElementById("rating"+(i+1)).innerHTML = place_name[2];
+				
+			}
+
+		</script>
+
+
+		<a href="#" style="padding-left: 700px;" >leave a review</a>
+
+		
+
+	</div>
+
+
+	</body>
+</html>
